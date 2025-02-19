@@ -1,0 +1,61 @@
+/* Container for the models grid */
+.models-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Two columns on wider screens */
+    grid-gap: 20px; /* Space between model items */
+    margin-top: 20px;
+  }
+  
+  /* Model item container */
+  .model-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+
+  .model-item:hover{
+    background-color: black;
+    color: white;
+  }
+  
+  
+  /* Header section for model name and type */
+  .model-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Model name */
+  .model-name {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+  
+  /* Model type */
+  .model-type {
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Details section with update info and stats */
+  .model-details {
+    display: flex;
+    justify-content: space-between;
+    color: #999;
+    font-size: 0.85em;
+  }
+  
+  /* Model stats with stars and likes */
+  .model-stats {
+    color: #666;
+  }
+  
+  /* Responsiveness: On smaller screens, show one column */
+  @media (max-width: 768px) {
+    .models-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+  

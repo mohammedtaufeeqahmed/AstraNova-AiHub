@@ -1,0 +1,44 @@
+[
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Max Weber",
+    "info": "HR Manager",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Douglas Smith",
+    "info": "Businessman",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Abraham Maslo",
+    "info": "Founder @ Marketing Company",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Jack Fayol",
+    "info": "HR Manager",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Karen Lynn",
+    "info": "Software Engineer",
+    "rating": "assets/img/th-1/rating.svg"
+  },
+  {
+    "review": "“Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi illo, in exercitationem alias omnis rerum?”",
+    "profile": "assets/img/th-1/rest.png",
+    "name": "Henry Ochi",
+    "info": "Bank Manager",
+    "rating": "assets/img/th-1/rating.svg"
+  }
+]

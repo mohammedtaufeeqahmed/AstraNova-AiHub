@@ -1,0 +1,95 @@
+/* Main container for left and right sections */
+.main-container {
+    display: flex;
+    margin: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .main-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 2px; /* Line thickness */
+    background-color: #ddd; /* Line color */
+    margin-top: 90px;
+  }
+  
+  
+  /* Left-side section (Tasks) */
+  .left-section {
+    width: 20%;
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+
+  .categories h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .tag {
+    display: block;
+    padding: 5px 10px;
+    margin: 5px 0;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: left;
+  }
+  
+  .tag:hover {
+    background-color: #e0e0e0;
+  }
+  
+  /* Hide left section on small screens */
+  @media (max-width: 768px) {
+    .left-section {
+      display: none;
+    }
+  }
+  
+  /* Right-side section (Models + Search) */
+  .right-section {
+    width: 80%;
+    padding-left: 20px;
+  }
+  
+  /* Search bar styling */
+  .search-bar {
+    margin-bottom: 20px;
+
+  }
+  
+  .search-bar input {
+    width: 30%;
+    padding: 2px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+
+  .search-bar-left{
+    width: 100%;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 1em;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  /* Responsiveness: On small screens, the right section takes full width */
+  @media (max-width: 768px) {
+    .right-section {
+      width: 100%;
+      padding-left: 0;
+    }
+    .search-bar input{
+        width: 100%;
+    }
+  }
+  
